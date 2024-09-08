@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E024B058-12FC-4748-9982-94208594ED3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BasicCard</RootNamespace>
+    <AssemblyName>CardGame</AssemblyName>
+    <WarningLevel>4</WarningLevel>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/CardGame/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardGameFramework\Card.cs" />
+    <Compile Include="BasicCardGame\BasicCardGame.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="BasicCardGame\Player.cs" />
+    <Compile Include="CardGameFramework\Deck.cs" />
+    <Compile Include="CardGameFramework\Hand.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="BasicCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicCardForm.Designer.cs">
+      <DependentUpon>BasicCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BasicCardForm.resx">
+      <DependentUpon>BasicCardForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Cards\C1.png" />
+    <Content Include="Images\Cards\C10.png" />
+    <Content Include="Images\Cards\C2.png" />
+    <Content Include="Images\Cards\C3.png" />
+    <Content Include="Images\Cards\C4.png" />
+    <Content Include="Images\Cards\C5.png" />
+    <Content Include="Images\Cards\C6.png" />
+    <Content Include="Images\Cards\C7.png" />
+    <Content Include="Images\Cards\C8.png" />
+    <Content Include="Images\Cards\C9.png" />
+    <Content Include="Images\Cards\cardSkin.PNG" />
+    <None Include="Resources\AceJackSpade.png" />
+    <None Include="Resources\AceJackIcon.ico" />
+    <None Include="Resources\BackgroundGrnBlk.jpg" />
+    <Content Include="Images\Cards\CJ.png" />
+    <Content Include="Images\Cards\CK.png" />
+    <Content Include="Images\Cards\CQ.png" />
+    <Content Include="Images\Cards\D1.png" />
+    <Content Include="Images\Cards\D10.png" />
+    <Content Include="Images\Cards\D2.png" />
+    <Content Include="Images\Cards\D3.png" />
+    <Content Include="Images\Cards\D4.png" />
+    <Content Include="Images\Cards\D5.png" />
+    <Content Include="Images\Cards\D6.png" />
+    <Content Include="Images\Cards\D7.png" />
+    <Content Include="Images\Cards\D8.png" />
+    <Content Include="Images\Cards\D9.png" />
+    <Content Include="Images\Cards\DJ.png" />
+    <Content Include="Images\Cards\DK.png" />
+    <Content Include="Images\Cards\DQ.png" />
+    <Content Include="Images\Cards\H1.png" />
+    <Content Include="Images\Cards\H10.png" />
+    <Content Include="Images\Cards\H2.png" />
+    <Content Include="Images\Cards\H3.png" />
+    <Content Include="Images\Cards\H4.png" />
+    <Content Include="Images\Cards\H5.png" />
+    <Content Include="Images\Cards\H6.png" />
+    <Content Include="Images\Cards\H7.png" />
+    <Content Include="Images\Cards\H8.png" />
+    <Content Include="Images\Cards\H9.png" />
+    <Content Include="Images\Cards\HJ.png" />
+    <Content Include="Images\Cards\HK.png" />
+    <Content Include="Images\Cards\HQ.png" />
+    <Content Include="Images\Cards\RedBack.png" />
+    <Content Include="Images\Cards\redback1.png" />
+    <Content Include="Images\Cards\S1.png" />
+    <Content Include="Images\Cards\S10.png" />
+    <Content Include="Images\Cards\S2.png" />
+    <Content Include="Images\Cards\S3.png" />
+    <Content Include="Images\Cards\S4.png" />
+    <Content Include="Images\Cards\S5.png" />
+    <Content Include="Images\Cards\S6.png" />
+    <Content Include="Images\Cards\S7.png" />
+    <Content Include="Images\Cards\S8.png" />
+    <Content Include="Images\Cards\S9.png" />
+    <Content Include="Images\Cards\SJ.png" />
+    <Content Include="Images\Cards\SK.png" />
+    <Content Include="Images\Cards\SQ.png" />
+    <None Include="Resources\backGreen.png" />
+    <None Include="Resources\cardSkin.png" />
+    <None Include="Resources\RedBack.png" />
+    <Content Include="Sounds\card_drop.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\shuffling_cards.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <InProject>False</InProject>
+      <ProductName>.NET Framework 2.0 Beta</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+</Project>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BasicCard.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CardGameImagePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\Images\Cards\</Value>
+    </Setting>
+    <Setting Name="CardGameImageSkinPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\Images\Cards\redback.png</Value>
+    </Setting>
+    <Setting Name="CardGameImageExtension" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.png</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
