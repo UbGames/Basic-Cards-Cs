@@ -1,25 +1,20 @@
 # Basic-Cards-Cs
 The Basic Cards Game is built in C# to learn card animation.
 
-BasicCards (modified version of Card Game Starter Kit)
-
-This project will deal 5 cards (animation) to 2 players, click on card in hand, transfer to table, player2 discards card to table, high card wins.
+This project will deal 52 cards (animation) as 4 rows of 13 cards.
 
 Features:
 
+Card animation, deal 52 cards
 
-Modified Splash Screen 
+Shuffle cards and deal cards to table
 
-Create and shuffle deck of cards
-
-Card animation, deal 5 cards to each player
-
-Show/Hide cards in player's hand
+Show/Hide cards face
 
 Clear table
 
 Sound
 
-Modified Avatars
+BasicCardsCs (modified version of Card Game Starter Kit)
 
 Visual Studio 2022
