@@ -15,6 +15,8 @@ Clear table
 
 Sound
 
-BasicCardsCs (modified version of Card Game Starter Kit)
+The BasicCards game is an excellent resource to Learn How to Program C# Games!
+
+BasicCardsOOP (modified version of Card Game Starter Kit)
 
 Visual Studio 2022
