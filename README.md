@@ -1,6 +1,6 @@
 # Basic-Cards-Cs
 
-![BasicCardsCs450](https://github.com/user-attachments/assets/73cd423a-cce3-4b11-bf56-e0c46a04ea42)
+![BasicCardGameCS450](https://github.com/user-attachments/assets/bb25e33a-5544-46a4-834f-fc7f7444ba98)
 
 The Basic Cards Game is built in C# to learn card animation.
 
