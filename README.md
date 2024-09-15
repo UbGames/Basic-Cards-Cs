@@ -1,4 +1,7 @@
 # Basic-Cards-Cs
+
+![BasicCardsCs450](https://github.com/user-attachments/assets/73cd423a-cce3-4b11-bf56-e0c46a04ea42)
+
 The Basic Cards Game is built in C# to learn card animation.
 
 This project will deal 52 cards (animation) as 4 rows of 13 cards.
